@@ -1,5 +1,5 @@
-/* eslint-disable */
 #!/usr/bin/node
+/* eslint-disable */
 
 const fs = require('fs');
 const filePath = process.argv[2];

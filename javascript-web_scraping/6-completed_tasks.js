@@ -14,7 +14,7 @@ request(url, (err, response, body) => {
         todos.forEach((todo) => {
             if (todo.completed) {
                 if (completedtaskbyuser[todo.userID]) {
-                    completedtaskbyuser[todo.userID];
+                    completedtaskbyuser[todo.userID]++;
                 } else {
                     completedtaskbyuser[todo.userID] = 1;
                 }

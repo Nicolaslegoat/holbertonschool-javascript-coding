@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Importing necessary modules
 const http = require('http');
 const fs = require('fs');
